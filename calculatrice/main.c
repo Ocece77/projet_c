@@ -38,6 +38,8 @@ int main(){
         case '*':
              result = firstNumber * secondNumber;
              break;                 
+        default:
+            printf("Invalid operator\n");
     }
 
     printf("The result is :  %lf \n", result);
